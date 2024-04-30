@@ -18,7 +18,7 @@ function Navbar() {
     } else {
       element.classList.remove("dark");
       localStorage.setItem("theme", "light");
-      document.body.classList.remove("dark");
+      document.body.classList.add("light");
     }
   }, [theme]);
 
